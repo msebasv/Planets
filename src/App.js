@@ -32,7 +32,7 @@ function App() {
       </section>
       <footer className="footer">
         <div className="message_copyright">
-          Copyright (c) 2022 Putitos corporations - All Reserved
+          Copyright (c) 2022 Sebastian - All Reserved
         </div>
       </footer>
     </div>
