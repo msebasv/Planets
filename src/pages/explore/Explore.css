@@ -1,0 +1,10 @@
+.explore_container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #FFFFFF;
+  height: 100vh;
+  background: url(../../assets/images/explore.jpg) center no-repeat fixed; 
+  background-size:cover;
+}

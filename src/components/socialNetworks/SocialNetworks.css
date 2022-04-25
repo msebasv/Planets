@@ -1,0 +1,164 @@
+.social_network{
+  display: flex;
+  /* border: 1px solid #CCC; */
+  width:30vw;
+  height: 40vh;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social_network h1{
+  margin-bottom: 30px;
+}
+
+.logo_social{
+  display: flex;
+  width: 15vw;
+  height: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container_facebook{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20%;
+  width: 45px;
+  height: 45px;
+  border: 1px solid #FFFFFF;
+}
+
+.facebook{
+  font-size: 25px;
+}
+
+.container_facebook:hover{
+  background-color: #292929;
+  cursor: pointer;
+}
+
+.container_instagram{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20%;
+  width: 45px;
+  height: 45px;
+  border: 1px solid #FFFFFF;
+}
+
+.instagram{
+  font-size: 30px;
+}
+
+.container_instagram:hover{
+  background-color: #292929;
+  cursor: pointer;
+}
+
+.container_twitter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20%;
+  width: 45px;
+  height: 45px;
+  border: 1px solid #FFFFFF;
+}
+
+.twitter{
+  font-size:25px;
+}
+
+.container_twitter:hover{
+  background-color: #292929;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px ) {
+  .logo_social{
+    width: 20vw;
+  }
+}
+
+@media only screen and (max-width: 800px ) {
+  .logo_social{
+    width: 25vw;
+  }
+}
+
+@media only screen and (max-width: 600px ) {
+  .logo_social{
+    width: 30vw;
+  }
+}
+
+@media only screen and (max-width: 500px ) {
+  .logo_social{
+    width: 30vw;
+  }
+  .container_facebook{
+    width: 35px;
+    height: 35px;
+  }
+
+  .facebook{
+    font-size:20px;
+  }
+
+  .container_instagram{
+    width: 35px;
+    height: 35px;
+  }
+
+  .instagram{
+    font-size:25px;
+  }
+
+  .container_twitter{
+    width: 35px;
+    height: 35px;
+  }
+
+  .twitter{
+    font-size:20px;
+  }
+}
+
+@media only screen and (max-width: 400px ) {
+  .social_network h1{
+  font-size:17px;
+  }
+
+  .logo_social{
+    width: 30vw;
+  }
+
+  .container_facebook{
+    width: 30px;
+    height: 30px;
+  }
+
+  .facebook{
+    font-size:15px;
+  }
+
+  .container_instagram{
+    width: 30px;
+    height: 30px;
+  }
+
+  .instagram{
+    font-size:20px;
+  }
+
+  .container_twitter{
+    width: 30px;
+    height: 30px;
+  }
+
+  .twitter{
+    font-size:15px;
+  }
+}

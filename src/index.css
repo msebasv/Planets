@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url(./assets/images/backgroundAll.jpg) center no-repeat fixed;
+  background-size:cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  background: #1d1d1d;
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #FFFFFF;
+  border-radius:5px;
+}

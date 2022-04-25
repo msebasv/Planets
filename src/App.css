@@ -1,0 +1,23 @@
+.App{
+  scroll-behavior: smooth;
+}
+
+.footer{
+  background-color: #000000;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+@media only screen and (max-width: 470px ) {
+  .message_copyright{
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 350px ) {
+  .message_copyright{
+    font-size: 8px;
+  }
+}

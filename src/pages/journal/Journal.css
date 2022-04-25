@@ -1,0 +1,6 @@
+.container_journal{
+  height: 100vh;
+  color: white;
+  background: url(../../assets/images/journal.jpg) center no-repeat fixed; 
+  background-size:cover;
+}
