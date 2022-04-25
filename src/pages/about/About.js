@@ -11,11 +11,9 @@ const About = () => {
       data-aos="fade-up"
       data-aos-duration="2000"
     >
-      <h1 data-aos="fade-down" data-aos-duration="2000">
-        About
-      </h1>
+      <h1>About</h1>
       <div className="about_description">
-        <p data-aos="fade-right" data-aos-duration="2000">
+        <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non leo
           bibendum, pellentesque tellus at, feugiat libero. Vestibulum faucibus,
           ex et volutpat viverra, risus risus pharetra sem, sit amet laoreet
@@ -30,9 +28,7 @@ const About = () => {
           <img
             src={AstronautAbout}
             className="astronaut_image"
-            data-aos="fade-left"
-            data-aos-duration="2000"
-            alt = "Astronaut"
+            alt="Astronaut"
           />
         </div>
       </div>

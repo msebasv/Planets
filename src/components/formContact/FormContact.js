@@ -4,11 +4,7 @@ import './FormContact.css'
 
 const FormContact = () => {
   return (
-    <div
-      className="container_form_contact"
-      data-aos="fade-right"
-      data-aos-duration="2000"
-    >
+    <div className="container_form_contact">
       <h1>Let's Go</h1>
       <form className="form_contact">
         <input type="text" placeholder="Name" />

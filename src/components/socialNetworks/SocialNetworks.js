@@ -6,11 +6,7 @@ import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa'
 
 const SocialNetworks = () => {
   return (
-    <div
-      className="social_network"
-      data-aos="fade-left"
-      data-aos-duration="2000"
-    >
+    <div className="social_network">
       <h1>Follow US</h1>
       <div className="logo_social">
         <div className="container_facebook">
